@@ -48,14 +48,19 @@
 
             <div class="detailsform"><h1>Your Details</h1></div>
             <h3 class="gender">Gender</h3>
-            <input type="checkbox" id="male" name="Gender" value="male" />
-            <label for="male"> Male</label><br />
-            <input type="checkbox" id="female" name="Gender" value="female" />
-            <label for="female"> Female</label><br />
+            <div class="form-check-inline">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+              </label>
+            </div>
+            <div class="form-check-inline">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+              </label>
             <h3 class="birthday">Birthday</h3>
             <label for="date">Date:</label>
             <input type="date" id="birthday" name="birthday" />
-            <input type="submit" value="Submit" />
+            <button type="submit" class="btn btn-primary" onclick="findName();">SUBMIT</button>
           </div>
         </div>
       </div>

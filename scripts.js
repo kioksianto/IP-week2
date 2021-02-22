@@ -1,24 +1,31 @@
-<<<<<<< HEAD
-function akanNameGenerator(){
 
-let orientation = gender()
-let dateOfBirth = birthday();
-let dayOfWeek = dateOfBirth.getDay();
+//Gender function
 
+function getGender(){
+var genders = document.getElementsByName("gender");
+if(genders[0].checked == true){
+    var gender = "male";
 }
-=======
-lets
+else if(genders[1].checked == true){
+    var gender = "female";
+}
+else{
+    return false;
+}    let gender = gender("gender")
+}
+//Birthday
 
-
-let dateOfBirth = new Date();
+let dateOfBirth = document.getElementsByName("birthday")();
 let dayOfWeek = dateOfBirth.getDay();
 
->>>>>>> 2a651f109660f806158ccd07cb2fdc51d443e6c6
+//Array list
+
 function getWeekName(weekNumber){
     var daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday','Thursday','Friday','Saturday'];
     return dayOfWeek [weekNumber];
 }
-<<<<<<< HEAD
+//Getting the Akan name
+
 function decideAkanName (male, female){
     let akanNameDataBase = {
         'male': { 'Sunday':Kwasi,'Monday':Kwadwo,'Tuesday':Kwabeka,'Wednesday':Kwaku,'Thursday':Yaw,'Friday':Kofi,'Saturday':Kwame},
@@ -28,8 +35,9 @@ function decideAkanName (male, female){
     return akanName;
 
 }
-function finalmessage([akanName]){
-    return {'message': 'Your Akan name is'+ akanName}
-}
-=======
->>>>>>> 2a651f109660f806158ccd07cb2fdc51d443e6c6
+//Final Message
+
+function myText() {
+    var finalMessage = 'Your Akan name is'+ ' ' + akanName;
+    alert (finalMessage);
+  }
