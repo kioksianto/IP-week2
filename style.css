@@ -1,6 +1,6 @@
 /* master style */
 body {
-  font-family: "Karla", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0px;
 }
 /* nav-bar style */
@@ -43,6 +43,16 @@ body {
   color: black;
 }
 /* Home style*/
+.image-background {
+  background: url(Akan.jpg) no-repeat center center scroll;
+  height: 120vh;
+  background-size: 100% 100%;
+  background-attachment: no;
+  background-color: rgb(78, 76, 76);
+  opacity: 100%;
+  margin: 30px;
+  border-radius: 4px;
+}
 .img-text {
   text-align: center;
   color: antiquewhite;
@@ -53,46 +63,50 @@ body {
   padding: 40px;
   font-size: 2.5em;
   color: #01492b;
-  bottom: 100%;
+  padding-left: 45px;
+  font-weight: bold;
 }
-
-.img-text-2 {
-  font-size: 1em;
-  color: wheat;
-  margin-top: 80px;
-}
-
-.image-background {
-  background: url(Akan.jpg) no-repeat center center scroll;
-  height: 100vh;
-  background-size: 100% 100%;
-  background-attachment: no;
-  background-color: rgb(78, 76, 76);
-  opacity: inherit;
+.img-text-3 {
+  padding: 40px;
+  margin-left: 100px;
+  font-size: 1.2em;
+  color: ;
+  font-weight: bold;
+  font-style: italic;
 }
 /* form */
 .form {
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
-  margin: 0px;
+  margin: 30px;
   margin-top: 20px;
   padding: 30px;
+  border-radius: 4px;
+  background: url(Kente.jpeg) no-repeat center center scroll;
   background-color: #ef6e5e;
 }
 .card {
   flex: 1;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
   width: 800px;
   height: 500px;
   max-width: 600px;
   flex-direction: column;
-  background-color: #f1a412;
+  background-color: #ef6e5e;
   border-radius: 10px;
   margin: 20px 20px 20px 20px;
   position: relative;
+  margin: 100px;
+  left: 17%;
+  opacity: 100%;
 }
 .form-types {
   position: absolute;
   align-items: center;
+  margin-right: 10%;
+  color: #fff;
+  padding: 0px;
+  margin-top: 7%;
+  margin-left: 20%;
 }
