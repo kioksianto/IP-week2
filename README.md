@@ -14,9 +14,11 @@ the exact day of the week the user was born and give them an Akan name based on 
 
 ## Setup/Installation Requirements
 
-*Step 1 : Clone this repository using git clone or downloading a ZIP file of the code.
-*Step 2 : The repository, if downloaded as a .zip file will need to be extracted o your preferred location and opened
-*Step 3 : Open the index.html file to view the application on your preferred web browser
+* Step 1 : Clone this repository using git clone or downloading a ZIP file of the code.
+
+* Step 2 : The repository, if downloaded as a .zip file will need to be extracted o your preferred location and opened
+
+* Step 3 : Open the index.html file to view the application on your preferred web browser
 
 ## Known Bugs
 Formula provided to determine day of birth shows inconsistency in its results.
