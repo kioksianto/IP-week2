@@ -26,17 +26,17 @@ Formula provided to determine day of birth shows inconsistency in its results.
 ## Features
 Here are the features in summary:
 
-*Input of year of birth.
-*Input month of birth.
-*Input day of birth.
-*Select Gender.
-*Output Akan name.
+* Input of year of birth.
+* Input month of birth.
+* Input day of birth.
+* Select Gender.
+* Output Akan name.
 
 ## Technologies Used
 
-*HTML
-*CSS
-*Javascript
+* HTML
+* CSS
+* Javascript
 
 ## Support/Contact details
 
