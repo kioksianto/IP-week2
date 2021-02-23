@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf=8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Akan Name</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -19,10 +20,7 @@
               <a href="index.html">HOME</a>
             </div>
             <div class="nav-link-wrapper active-nav-link">
-              <a href="form.html">FORM</a>
-            </div>
-            <div class="nav-link-wrapper active-nav-link">
-              <a href="contact.html">contact</a>
+              <a href="#form">FORM</a>
             </div>
           </div>
           <div class="right-side">
@@ -36,7 +34,7 @@
           <div class="img-text-1">Welcome!</div>
         </div>
       </div>
-      <div class="form">
+      <div class="form" id="form">
         <div class="card">
           <div class="form-types">
             <div class="img-text-2">
@@ -46,25 +44,44 @@
               details below to find your Akan name.
             </div>
 
-            <div class="detailsform"><h1>Your Details</h1></div>
-            <h3 class="gender">Gender</h3>
-            <div class="form-check-inline">
-              <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
-              </label>
+            <form name="myForm" class="form1" onsubmit="validate();">
+              <div class="form-group">
+                <label for="number">Year of Birth:</label>
+                <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2019 if born in 2019"
+                  name="year">
+              </div>
+              <div class="form-group">
+                <label for="month">Month of Birth:</label>
+                <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
+              </div>
+              <div class="form-group">
+                <label for="date">Date of Birth:</label>
+                <input type="number" class="form-control" id="date" placeholder="Date of Birth eg 05 for May" name="date">
+              </div>
+              <div class="form-group">
+                <label for="gender">Gender</label><br>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female
+                  </label>
+                </div>
+              </div>
+            
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+              </div>
+            </form>
+              </div>
             </div>
-            <div class="form-check-inline">
-              <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
-              </label>
-            <h3 class="birthday">Birthday</h3>
-            <label for="date">Date:</label>
-            <input type="date" id="birthday" name="birthday" />
-            <button type="submit" class="btn btn-primary" onclick="findName();">SUBMIT</button>
           </div>
         </div>
       </div>
     </div>
-    <script src="scripts.js"></script>
+    <script src="./scripts.js"></script>
   </body>
 </html>
