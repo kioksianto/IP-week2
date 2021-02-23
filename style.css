@@ -1,4 +1,7 @@
 /* master style */
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0px;
@@ -82,7 +85,7 @@ body {
   margin-top: 20px;
   padding: 30px;
   border-radius: 4px;
-  background: url(Kente.jpeg) no-repeat center center scroll;
+  background: url(./Kente.jpeg) no-repeat center center scroll;
   background-color: #ef6e5e;
 }
 .card {
@@ -108,4 +111,22 @@ body {
   padding: 0px;
   margin-top: 7%;
   margin-left: 20%;
+}
+.submit {
+  margin-top: 20px;
+}
+.form1{
+  margin-left: 0em;
+  background-color: #ef6e5e;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: 4px;
+}
+.form-group{
+  padding: 0.6em;
+  float: left;
 }
