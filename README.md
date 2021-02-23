@@ -11,9 +11,9 @@ their Akan Name. This app will take in a user's year of birth, month of birth, d
 Using a formula assigned to a variable in the akan.js file (dayOfWeekNumber), it will be possible to determine 
 the exact day of the week the user was born and give them an Akan name based on their gender.
 ## Setup/Installation Requirements
-Step 1 : Clone this repository using git clone or downloading a ZIP file of the code.
-Step 2 : The repository, if downloaded as a .zip file will need to be extracted o your preferred location and opened
-Step 3 : Open the index.html file to view the application on your preferred web browser
+*Step 1 : Clone this repository using git clone or downloading a ZIP file of the code.
+*Step 2 : The repository, if downloaded as a .zip file will need to be extracted o your preferred location and opened
+*Step 3 : Open the index.html file to view the application on your preferred web browser
 
 ## Known Bugs
 Formula provided to determine day of birth shows inconsistency in its results.
@@ -21,16 +21,16 @@ Formula provided to determine day of birth shows inconsistency in its results.
 ## Features
 Here are the features in summary:
 
-Input of year of birth.
-Input month of birth.
-Input day of birth.
-Select Gender.
-Output Akan name.
+*Input of year of birth.
+*Input month of birth.
+*Input day of birth.
+*Select Gender.
+*Output Akan name.
 
 ## Technologies Used
--HTML
--CSS
--Javascript
+*HTML
+*CSS
+*Javascript
 
 ### License
 MIT License
