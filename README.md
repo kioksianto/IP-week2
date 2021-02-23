@@ -1,5 +1,5 @@
 
-IP-week2
+####IP-week2
 {Akan Name Generator}
 #### A web application that generates Ghanaian Akan names, {23/02/2021}
 #### By **{Kiok Sianto}**
